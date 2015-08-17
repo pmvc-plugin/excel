@@ -9,8 +9,8 @@ Excel Library (for now write only)
 Fork from https://github.com/mk-j/PHP_XLSXWriter
 
 ## Office Open XML File Formats
-https://msdn.microsoft.com/en-us/library/aa338205(v=office.12).aspx
-
+   * https://msdn.microsoft.com/en-us/library/aa338205(v=office.12).aspx
+   * https://en.wikipedia.org/wiki/Office_Open_XML_file_formats
 
 
 
