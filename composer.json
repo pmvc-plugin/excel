@@ -1,0 +1,18 @@
+{
+    "name": "pmvc-plugin/excel",
+    "description": "Excel lib",
+    "type": "library",
+    "keywords": ["excel", "pmvc", "plug-in"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hill",
+            "email": "hill@kimo.com"
+        }
+    ],
+    "require": {
+        "pmvc/pmvc": "*",
+        "pmvc-plugin/zip": "*"
+    },
+    "minimum-stability": "dev"
+}
