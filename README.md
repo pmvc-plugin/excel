@@ -12,6 +12,21 @@ Fork from https://github.com/mk-j/PHP_XLSXWriter
    * https://msdn.microsoft.com/en-us/library/aa338205(v=office.12).aspx
    * https://en.wikipedia.org/wiki/Office_Open_XML_file_formats
 
+## How to use?
+```
+include_once('vendor/autoload.php');
+PMVC\Load::plug();
+
+$data = array(
+    array('year','month','amount'),
+    array('2003','1','220'),
+    array('2003','2','153.5'),
+);
+
+$writer = \PMVC\plug('excel')->create();
+$writer->writeSheet($data);
+$writer->writeToFile('output.xlsx');
+```
 
 
 ## Install with Composer
