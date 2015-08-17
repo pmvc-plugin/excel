@@ -6,8 +6,13 @@
 
 Excel Library (for now write only)
 ===============
-
 Fork from https://github.com/mk-j/PHP_XLSXWriter
+
+## Office Open XML File Formats
+https://msdn.microsoft.com/en-us/library/aa338205(v=office.12).aspx
+
+
+
 
 ## Install with Composer
 ### 1. Download composer
@@ -20,26 +25,13 @@ Fork from https://github.com/mk-j/PHP_XLSXWriter
 ```
 {
     "require": {
-        "pmvc-plugin/hello_world": "dev-master"
+        "pmvc-plugin/excel": "dev-master"
     }
 }
 ```
    * php composer.phar install
 
 #### 2.2 Or use composer command-line
-   * php composer.phar require pmvc-plugin/hello_world
+   * php composer.phar require pmvc-plugin/excel
 
-### 3. Write some demo code
-```
-<?php
-    include_once('vendor/pmvc/pmvc/include_plug.php');
-    PMVC\setPlugInFolder('vendor/pmvc-plugin/');
-    PMVC\plug('hello_world')->say('hello, World!');
-?>
-```
-### 4. Run the demo
-   * php demo.php
-
-### 5. Check the whole demo code
-   * https://github.com/pmvc-plugin/hello_world/tree/master/demo
 
